@@ -160,12 +160,11 @@ people as T2
 on T1.spid=T2.SPID 
 and T1.SaleDate between 2021-01-01 and 2021-01-07
 where T1.spid is null;
-##########not in
+##########not in##############
 select salesperson from people 
 where spid 
 not in(select distinct spid from sales where SaleDate between 2021-01-01 and 2021-01-07);
-#######How many times we shipped more than 1000 boxes per month
-###########
+#######How many times we shipped more than 1000 boxes per month ###########
 select year(saledate) as By_year,
 monthname(saledate) as By_Month,
 count(*) as Times_we_shipped_1k_boxes 
