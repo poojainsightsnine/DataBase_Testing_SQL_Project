@@ -1,5 +1,4 @@
-# DataBase_Testing_SQL_Practice_Project
-#  Database Testing SQL Project
+## DataBase_Testing_SQL_Practice_Project
 
 ###  By: Pooja Parashar  
 **Role Target:** Software QA Tester / Database Tester
